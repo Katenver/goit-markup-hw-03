@@ -17,19 +17,44 @@ body {
   color: var(--main-txt-cl);
   font-family: var(--main-font);
 }
+/* reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;}
 
 .logo,
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-txt);
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+.header-container {
+  display: flex;
+  align-items: center;
+  
+  
+}
 .logo-studio {
   color: #000000;
+  margin-right: 93px;
+  
 }
 .nav-list,
 .header-contacts,
@@ -40,11 +65,22 @@ body {
 .projects-list {
   list-style: none;
 }
+.nav-list{
+  display: flex;
+  gap: 50px;
+  padding-left: 0%;
+    margin-left: 0%;
+  
+}
+.header-nav-item:last-child{
+margin-right: 331px;
+}
 .header-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+   
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -59,14 +95,24 @@ body {
   text-decoration: none;
   color: currentColor;
 }
+
+.header-contacts {
+  display: flex;
+  padding-left: 0%;
+}
+.header-mail{
+  margin-right: 50px;
+}
 .header-mail,
 .header-phone {
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-cl);
 }
+
 
 .nav-current-link {
   color: var(--accent-txt);
@@ -77,11 +123,21 @@ body {
 .phone-link:hover {
   color: var(--accent-txt);
 }
+.hero-container{
+
+}
 
 .hero {
   background-color: var(--background-clr);
+  padding-bottom: 200px;
+  
+  
 }
 .hero-title {
+  padding-top: 200px;
+  
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,6 +148,14 @@ body {
   color: var(--btn-txt-cl);
 }
 .hero-btn {
+  display: block;
+  
+  max-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+  margin:0 auto;
+  ;
+  
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
