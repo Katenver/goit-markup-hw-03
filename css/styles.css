@@ -69,7 +69,7 @@ p {
   display: flex;
   gap: 50px;
   padding-left: 0%;
-    margin-left: 0%;
+  margin-left: 0%;
   
 }
 .header-nav-item:last-child{
@@ -85,6 +85,7 @@ margin-right: 331px;
 .nav-item:hover,
 .nav-item:focus {
   color: var(--accent-txt);
+  padding: 32px 0;
 }
 
 .nav-item,
@@ -102,6 +103,9 @@ margin-right: 331px;
 }
 .header-mail{
   margin-right: 50px;
+}
+.header-phone{
+  padding-right: 0px;
 }
 .header-mail,
 .header-phone {
@@ -123,15 +127,11 @@ margin-right: 331px;
 .phone-link:hover {
   color: var(--accent-txt);
 }
-.hero-container{
-
-}
 
 .hero {
   background-color: var(--background-clr);
   padding-bottom: 200px;
-  
-  
+    
 }
 .hero-title {
   padding-top: 200px;
@@ -153,11 +153,9 @@ margin-right: 331px;
   margin: 0 auto;
   padding: 17px 32px;
   
-  
   border: none;
 
-  
-  border-radius: 4px;
+    border-radius: 4px;
   
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   
@@ -170,7 +168,16 @@ margin-right: 331px;
   background-color: var(--accent-txt);
   cursor: pointer;
 }
+
+.advantage-list {
+  display: flex;
+  margin: 0px;
+  padding: 94px 0;
+  gap: 30px;
+
+}
 .advantage-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -184,6 +191,9 @@ margin-right: 331px;
   letter-spacing: 0.03em;
   color: var(--txt-cl);
 }
+.scope-title{
+  margin-bottom: 50px;
+}
 .scope-title,
 .team-title {
   font-weight: 700;
@@ -192,17 +202,54 @@ margin-right: 331px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-title {
-  background-color: var(--background-clr-team);
+.scope-list{
+  display: flex;
+  margin: 0px;
+  padding: 0 0 94px 0;
+    gap: 30px;
 }
+.team-container {
+  background-color: var(--background-clr-team);
+  padding: 94px 0;
+  }
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    gap: 30px;
+  }
+  
+    .team-item:last-child {
+      margin-right: 0;
+      padding-right: 0px;
+    }
+
+  .team-title{
+    margin-bottom: 50px;
+  }
+  .team-img{
+    display:block;
+    min-width: 100%;
+    height: auto;
+    border-radius: 3px;
+     Offset: Drop shadow 0px, 1px rgba(0, 0, 0, 0.12)
+  }
 .team-name {
+  margin-top: 30px;
+  text-align: center;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  
 }
 
 .team-text {
+  margin-top: 10px;
+  text-align: center;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
