@@ -312,6 +312,9 @@ color: var(--accent-txt);
 .footer-phone{
   padding-bottom: 60px;
 }
+.heder-portfolio{
+  border: 1px solid #ECECEC;
+}
 .filter-container{
   padding-top: 100px;
 }
