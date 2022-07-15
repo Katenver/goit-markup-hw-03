@@ -64,7 +64,7 @@ p {
 .team-list,
 .filter-list,
 .projects-list {
-  list-style: none;
+list-style: none;
 }
 
 .nav-list{
@@ -344,16 +344,22 @@ color: var(--accent-txt);
   background-color: var(--background-clr-team);
 }
 .projects-list{
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding-left: 0px;
   padding-top: 34px;
   padding-bottom: 92px;
-  display: flex;
-  flex-wrap: wrap;
   gap: 30px;
 }
 .project-item{
   flex-basis: calc((100% - 60px)/3);
+}
+.project-content{
+  padding: 20px 24px;
+  border:1px solid #EEEEEE;
+  border-top: none;
+ 
 }
 .project-name {
   font-weight: 700;
