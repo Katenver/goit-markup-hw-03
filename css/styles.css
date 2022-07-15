@@ -313,7 +313,7 @@ color: var(--accent-txt);
   padding-bottom: 60px;
 }
 .heder-portfolio{
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .filter-container{
   padding-top: 100px;
