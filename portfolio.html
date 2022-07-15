@@ -21,13 +21,14 @@
 
   <body>
     <header>
+      <div class="container header-container">
       <a class="logo" href="">Web<span class="logo-studio">Studio</span></a>
       <!--Navigate-->
       <nav class="header-nav">
         <ul class="nav-list">
-          <li><a class="nav-item" href="index.html">Студия</a></li>
-          <li><a class="nav-item nav-current-link" href="">Портфолио</a></li>
-          <li><a class="nav-item" href="">Контакты</a></li>
+          <li><a class="header-nav-item nav-item" href="index.html">Студия</a></li>
+          <li><a class="header-nav-item nav-item nav-current-link" href="">Портфолио</a></li>
+          <li><a class="header-nav-item nav-item" href="">Контакты</a></li>
         </ul>
       </nav>
       <!--Contacts-->
@@ -35,8 +36,7 @@
       <ul class="header-contacts">
         <li>
           <a class="header-mail mail-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+            >info@devstudio.com</a>
         </li>
         <li>
           <a class="header-phone phone-link" href="tel:+380961111111"
@@ -44,10 +44,12 @@
           >
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="filter-section">
-        <h1 hidden>Портфолио работ студии</h1>
+        <div class="container filter-container">
+        <h1 class="hidden">Портфолио работ студии</h1>
         <ul class="filter-list">
           <li>
             <button class="filter-btn main-btn" type="button">Все</button>
@@ -140,10 +142,12 @@
             <p class="project-text">Приложение</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
+      <div class="container footer-container">
       <a class="footer-logo" href=""
         >Web<span class="footer-logo-studio">Studio</span></a
       >
@@ -156,6 +160,7 @@
           >+380961111111</a
         >
       </address>
+    </div>
     </footer>
   </body>
 </html>

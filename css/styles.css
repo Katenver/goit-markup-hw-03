@@ -37,6 +37,7 @@ p {
   color: var(--accent-txt);
   text-decoration: none;
 }
+
 .container {
   width: 1200px;
   
@@ -45,12 +46,12 @@ p {
   margin-left: auto;
   margin-right: auto;
  }
+
 .header-container {
   display: flex;
-  align-items: center;
-  
-  
+  align-items: center; 
 }
+
 .logo-studio {
   color: #000000;
   margin-right: 93px;
@@ -65,6 +66,7 @@ p {
 .projects-list {
   list-style: none;
 }
+
 .nav-list{
   display: flex;
   gap: 50px;
@@ -72,9 +74,7 @@ p {
   margin-left: 0%;
   
 }
-.header-nav-item:last-child{
-margin-right: 331px;
-}
+
 .header-nav {
   font-weight: 500;
   font-size: 14px;
@@ -99,17 +99,20 @@ margin-right: 331px;
 
 .header-contacts {
   display: flex;
-  padding-left: 0%;
+  padding-left: 0px;
+  gap: 50px;
+    
 }
-.header-mail{
-  margin-right: 50px;
-}
+
 .header-phone{
   padding-right: 0px;
 }
+.header-mail{
+  margin-left: 331px;
+}
 .header-mail,
 .header-phone {
-  
+  flex-basis: calc((100% - 50px)/2);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -125,7 +128,7 @@ margin-right: 331px;
 .mail-link:focus,
 .phone-link:focus,
 .phone-link:hover {
-  color: var(--accent-txt);
+color: var(--accent-txt);
 }
 
 .hero {
@@ -218,7 +221,7 @@ margin-right: 331px;
   }
 .team-list{
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
     padding-bottom: 94px;
@@ -309,7 +312,29 @@ margin-right: 331px;
 .footer-phone{
   padding-bottom: 60px;
 }
+.filter-container{
+  padding-top: 100px;
+}
+
+.hidden{
+  display: none;
+  }
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:8px;
+  padding-left: 0;
+  margin: 0px;
+}
 .filter-btn {
+
+  display: block;
+  margin: 0 auto;
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+  
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -317,6 +342,18 @@ margin-right: 331px;
   letter-spacing: 0.03em;
   cursor: pointer;
   background-color: var(--background-clr-team);
+}
+.projects-list{
+  margin: 0;
+  padding-left: 0px;
+  padding-top: 34px;
+  padding-bottom: 92px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.project-item{
+  flex-basis: calc((100% - 60px)/3);
 }
 .project-name {
   font-weight: 700;
