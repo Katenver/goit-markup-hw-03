@@ -110,7 +110,6 @@ p {
 
 .header-phone {
   padding-right: 0px;
-  
 }
 
 .header-mail {
@@ -145,8 +144,6 @@ p {
 }
 
 .hero-title {
-  
-
   margin-top: 0px;
   margin-bottom: 30px;
 
@@ -205,7 +202,6 @@ p {
   color: var(--txt-cl);
 }
 
-
 .scope-title {
   margin-bottom: 50px;
 }
@@ -231,8 +227,7 @@ p {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-
-.team{
+.team {
   background-color: var(--background-clr-team);
   padding-top: 94px;
 }
@@ -271,7 +266,6 @@ p {
 }
 
 .team-name {
-  
   text-align: center;
 
   font-weight: 500;
@@ -300,7 +294,6 @@ p {
 
 .footer-logo {
   display: block;
-  
 }
 
 .footer-logo-studio {
@@ -339,7 +332,7 @@ p {
   border-bottom: 1px solid #ececec;
 }
 
-.filter-section{
+.filter-section {
   margin-top: 100px;
 }
 
@@ -373,7 +366,7 @@ p {
 }
 .project-section {
   margin-top: 34px;
-    margin-bottom: 92px;
+  margin-bottom: 92px;
 }
 
 .projects-list {
@@ -381,7 +374,7 @@ p {
   flex-wrap: wrap;
   margin: 0;
   padding-left: 0px;
-  
+
   gap: 30px;
 }
 
